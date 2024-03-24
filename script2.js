@@ -13,8 +13,7 @@ function GerarCorAleatoriaName(){
         title.innerHTML = "A sua cor é: " + RandomColor.slice(0 ,1).toUpperCase()+RandomColor.slice(1, RandomColor.length); 
 
         function RandomStringFunction(){
-            let CssColorsSize = (CssColors.length);
-            return Math.floor(Math.random()*(CssColorsSize));
+            return Math.floor(Math.random()*CssColors.length);
         }
     });
 }
