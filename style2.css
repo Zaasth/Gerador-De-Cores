@@ -1,0 +1,20 @@
+#header_menu {
+    color: black;
+}
+#title {
+
+    text-shadow: 1px 1px 2px pink;
+    margin: 0%;
+    color: #0B5ED7;
+}
+#botão {
+    margin-top: 2%;
+}
+@media (max-width:900px){
+    #botão {
+        margin-top: 13%;
+    }
+}
+main {
+    padding: 15% 17%;
+}
